@@ -1,5 +1,5 @@
 {
-    "name": "imajim/sylius-paybox-bundle",
+    "name": "triotech/sylius-paybox-bundle",
     "type": "symfony-bundle",
     "description": "Paybox gateway for Sylius projects.",
     "keywords": ["Sylius", "Payum", "Paybox", "Symfony"],
@@ -19,11 +19,6 @@
             "name": "qkdreyer",
             "email": "quentin.dreyer@triotech.fr",
             "homepage": "https://www.triotech.fr"
-        },
-        {
-            "name": "imaJim",
-            "email": "contact@imajim.com",
-            "homepage": "httpc://imajim.com"
         }
     ],
     "require": {
@@ -32,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "imajim\\SyliusPayboxBundle\\": "src/"
+            "triotech\\SyliusPayboxBundle\\": "src/"
         }
     },
     "require-dev": {
