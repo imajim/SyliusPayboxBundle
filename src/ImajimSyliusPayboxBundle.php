@@ -12,15 +12,15 @@
 
 namespace Imajim\SyliusPayboxBundle;
 
-use Triotech\SyliusPayboxBundle\DependencyInjection\TriotechSyliusPayboxExtension;
+use Imajim\SyliusPayboxBundle\DependencyInjection\ImajimSyliusPayboxExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-final class TriotechSyliusPayboxBundle extends Bundle
+final class ImajimSyliusPayboxBundle extends Bundle
 {
     public function getContainerExtension()
     {
         if (null === $this->extension) {
-            $this->extension = new TriotechSyliusPayboxExtension();
+            $this->extension = new ImajimSyliusPayboxExtension();
         }
 
         return $this->extension;
