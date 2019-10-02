@@ -12,7 +12,7 @@
 
 namespace Imajim\SyliusPayboxBundle\Action;
 
-use Triotech\SyliusPayboxBundle\PayboxParams;
+use Imajim\SyliusPayboxBundle\PayboxParams;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\Bridge\Spl\ArrayObject;
 use Payum\Core\Exception\RequestNotSupportedException;
