@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "imajim\\SyliusPayboxBundle\\": "src/"
+            "Imajim\\SyliusPayboxBundle\\": "src/"
         }
     },
     "require-dev": {

@@ -12,13 +12,13 @@
 
 namespace Imajim\SyliusPayboxBundle;
 
-use Triotech\SyliusPayboxBundle\Action\AuthorizeAction;
-use Triotech\SyliusPayboxBundle\Action\CancelAction;
-use Triotech\SyliusPayboxBundle\Action\ConvertPaymentAction;
-use Triotech\SyliusPayboxBundle\Action\CaptureAction;
-use Triotech\SyliusPayboxBundle\Action\NotifyAction;
-use Triotech\SyliusPayboxBundle\Action\RefundAction;
-use Triotech\SyliusPayboxBundle\Action\StatusAction;
+use Imajim\SyliusPayboxBundle\Action\AuthorizeAction;
+use Imajim\SyliusPayboxBundle\Action\CancelAction;
+use Imajim\SyliusPayboxBundle\Action\ConvertPaymentAction;
+use Imajim\SyliusPayboxBundle\Action\CaptureAction;
+use Imajim\SyliusPayboxBundle\Action\NotifyAction;
+use Imajim\SyliusPayboxBundle\Action\RefundAction;
+use Imajim\SyliusPayboxBundle\Action\StatusAction;
 use Payum\Core\Bridge\Spl\ArrayObject;
 use Payum\Core\GatewayFactory;
 
