@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Triotech\SyliusPayboxBundle;
+namespace Imajim\SyliusPayboxBundle;
 
 use Triotech\SyliusPayboxBundle\DependencyInjection\TriotechSyliusPayboxExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
