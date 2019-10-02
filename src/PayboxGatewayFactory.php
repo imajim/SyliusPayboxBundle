@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Triotech\SyliusPayboxBundle;
+namespace Imajim\SyliusPayboxBundle;
 
 use Triotech\SyliusPayboxBundle\Action\AuthorizeAction;
 use Triotech\SyliusPayboxBundle\Action\CancelAction;
