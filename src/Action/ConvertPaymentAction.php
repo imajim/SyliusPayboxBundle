@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Triotech\SyliusPayboxBundle\Action;
+namespace Imajim\SyliusPayboxBundle\Action;
 
 use Triotech\SyliusPayboxBundle\PayboxParams;
 use Payum\Core\Action\ActionInterface;
