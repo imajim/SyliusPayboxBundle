@@ -2,7 +2,7 @@
 
 Paybox gateway for Sylius projects.
 
-This plugin has been forked from [libre-informatique/sylius-paybox-bundle](https://packagist.org/packages/libre-informatique/sylius-paybox-bundle)
+This plugin has been forked from [Triotech-fr/SyliusPayboxBundle](https://packagist.org/packages/libre-informatique/sylius-paybox-bundle)
 
 ## Usage
 
