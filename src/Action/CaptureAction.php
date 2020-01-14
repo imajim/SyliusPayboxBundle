@@ -12,7 +12,7 @@
 
 namespace Imajim\SyliusPayboxBundle\Action;
 
-use Triotech\SyliusPayboxBundle\Api;
+use Imajim\SyliusPayboxBundle\Api;
 use Payum\Core\Bridge\Spl\ArrayObject;
 use Payum\Core\ApiAwareTrait;
 use Payum\Core\ApiAwareInterface;
