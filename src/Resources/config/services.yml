@@ -19,8 +19,3 @@ services:
             - '@doctrine.orm.entity_manager'
         tags:
             - { name: payum.extension, all: true }
-    Imajim\EtransactionPluginBundle\Payum\Action\CaptureAction:
-        arguments:
-            - '@sylius.http_client'
-        tags:
-            - { name: payum.action, factory: sylius_payment, alias: payum.action.capture}
